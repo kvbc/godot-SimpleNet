@@ -60,7 +60,7 @@ static func Wrap (
 	parent = null,
 	middleware: Callable = func():pass
 ) -> void:
-	node.set_script(preload("res://_WrappedNode.gd"))
+	node.set_script(preload("res://addons/SimpleNet/_WrappedNode.gd"))
 	
 	middleware.call()
 	
