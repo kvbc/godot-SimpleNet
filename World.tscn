@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://chigb4dt33ds6"]
+
+[ext_resource type="Script" path="res://World.gd" id="1_qcm3g"]
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_qcm3g")
+
+[node name="Players" type="Node2D" parent="."]

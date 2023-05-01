@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://co86s0hbc5nrc"]
+
+[ext_resource type="Texture2D" uid="uid://clv514ep3kdr8" path="res://icon.svg" id="1_1ivov"]
+
+[node name="Player" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_1ivov")
+
+[node name="PeerLabel" type="Label" parent="."]
+offset_left = -54.0
+offset_top = -50.0
+offset_right = 54.0
+offset_bottom = 53.0
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/outline_size = 30
+text = "peer"
+horizontal_alignment = 1
+vertical_alignment = 1
